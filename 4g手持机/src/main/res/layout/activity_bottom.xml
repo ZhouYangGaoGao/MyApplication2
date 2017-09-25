@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dip"
+    android:background="#FFFFFF"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:descendantFocusability="blocksDescendants"
+        android:clickable="true"
+        android:id="@+id/ll_idcard"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_marginTop="5dip"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/iv_idcard"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:src="@mipmap/idcard" />
+
+        <TextView
+            android:id="@+id/tv_idcard"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:text="扫身份证"
+            android:textColor="#404040"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="0.5dip"
+        android:layout_height="match_parent"
+        android:background="#0F0F0F"/>
+    
+    <LinearLayout
+        android:descendantFocusability="blocksDescendants"
+        android:clickable="true"
+        android:id="@+id/ll_idcard2"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_marginTop="5dip"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/iv_idcard2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:src="@mipmap/idcard" />
+
+        <TextView
+            android:id="@+id/tv_idcard2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:text="输入证件"
+            android:textColor="#404040"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View 
+        android:layout_width="0.5dip"
+        android:layout_height="match_parent"
+        android:background="#0F0F0F"/>
+    
+    <LinearLayout
+        android:descendantFocusability="blocksDescendants"
+        android:clickable="true"
+        android:id="@+id/ll_fp"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_marginTop="5dip"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/iv_fp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:src="@mipmap/fp" />
+
+        <TextView
+            android:id="@+id/tv_fp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:text="指纹"
+            android:textColor="#404040"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="0.5dip"
+        android:layout_height="match_parent"
+        android:background="#0F0F0F"/>
+
+    <LinearLayout
+        android:descendantFocusability="blocksDescendants"
+        android:clickable="true"
+        android:id="@+id/ll_face"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_marginTop="5dip"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/iv_face"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:src="@mipmap/face" />
+
+        <TextView
+            android:id="@+id/tv_face"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:text="人脸"
+            android:textColor="#404040"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="0.5dip"
+        android:layout_height="match_parent"
+        android:background="#0F0F0F"/>
+
+    <LinearLayout
+        android:descendantFocusability="blocksDescendants"
+        android:clickable="true"
+        android:id="@+id/ll_db"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_marginTop="5dip"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/iv_db"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:src="@mipmap/db" />
+
+        <TextView
+            android:id="@+id/tv_db"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:text="选日期"
+            android:textColor="#404040"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="0.5dip"
+        android:layout_height="match_parent"
+        android:background="#0F0F0F"/>
+
+    <LinearLayout
+        android:descendantFocusability="blocksDescendants"
+        android:clickable="true"
+        android:id="@+id/ll_black_db"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_marginTop="5dip"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/iv_black_db"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:src="@mipmap/black" />
+
+        <TextView
+            android:id="@+id/tv_black_db"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:text="黑名单"
+            android:textColor="#404040"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="0.5dip"
+        android:layout_height="match_parent"
+        android:background="#0F0F0F"/>
+    
+    <LinearLayout
+        android:descendantFocusability="blocksDescendants"
+        android:clickable="true"
+        android:id="@+id/ll_about"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_marginTop="5dip"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/iv_about"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:src="@mipmap/about" />
+
+        <TextView
+            android:id="@+id/tv_about"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:text="帮助"
+            android:textColor="#404040"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

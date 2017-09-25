@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dip"
+    android:layout_height="35dip"
+    android:orientation="vertical" >
+    
+    <EditText android:id="@+id/et_setting"
+        android:layout_width="match_parent"
+        android:layout_height="32dip"
+        android:inputType="number"
+        android:hint="设置比对的标准值"/>
+    
+
+</LinearLayout>

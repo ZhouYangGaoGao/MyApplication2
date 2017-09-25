@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_sam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip" />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_sam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:src="@drawable/face" />
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_image"
+        android:layout_marginLeft="8dip"
+        android:layout_marginTop="20dip"
+        android:text=""
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_booton"
+        android:layout_width="match_parent"
+        android:layout_height="34dip"
+        android:layout_marginBottom="5dip"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+        
+        
+        
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:clickable="true"
+                android:id="@+id/bt_readidcard"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="读卡"
+                android:textSize="26sp" />
+
+            <Button
+                android:clickable="true"
+                android:id="@+id/bt_fingerbd"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:text="指纹比对"
+                android:textSize="26sp"
+                />
+
+
+            <Button
+                android:clickable="true"
+                android:id="@+id/bt_hyblack"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="核验黑名单"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+        
+    </LinearLayout>
+
+</RelativeLayout>
